@@ -4,6 +4,8 @@ Créer une marque complète à partir d'un vrai produit, avec Claude Code, en su
 
 ## Installation (5 minutes)
 
+Le plus simple : dans Claude Code, demande « Installe la skill brand-factory depuis https://github.com/nicoguyon/brand-factory-kit ». Sinon, à la main :
+
 1. **Copier la skill** dans Claude Code :
    ```bash
    mkdir -p ~/.claude/skills && cp -R brand-factory ~/.claude/skills/
