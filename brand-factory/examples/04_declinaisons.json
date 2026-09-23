@@ -1,0 +1,164 @@
+{
+ "step": "04_declinaisons",
+ "title": "Les déclinaisons",
+ "intro": "Six variantes par marque, générées à partir du master : même produit, même lumière, seules les couleurs changent.",
+ "choose": "none",
+ "jobs": [
+  {
+   "id": "B-tanchet",
+   "group": "Déclinaisons B",
+   "label": "Tanchet",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "03_master/img/B-master.png",
+    "brand_kit/logo_B.png"
+   ],
+   "prompt": "The FIRST reference image is the MASTER product photo: keep EXACTLY the same product, construction, proportions, board, camera angle, framing, light, background and patch. Change ONLY the colors or print of the canvas panel and of the straps as specified. The second image is the logo on the patch, unchanged.\n\nNEW COLORWAY: panel mandarine #F26A2E, straps pistachio #B5D99C. Everything else identical to the master. No text."
+  },
+  {
+   "id": "B-sauveterre",
+   "group": "Déclinaisons B",
+   "label": "Sauveterre",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "03_master/img/B-master.png",
+    "brand_kit/logo_B.png"
+   ],
+   "prompt": "The FIRST reference image is the MASTER product photo: keep EXACTLY the same product, construction, proportions, board, camera angle, framing, light, background and patch. Change ONLY the colors or print of the canvas panel and of the straps as specified. The second image is the logo on the patch, unchanged.\n\nNEW COLORWAY: panel lilac #C9A7E8, straps lemon-yellow #F5E663. Everything else identical to the master. No text."
+  },
+  {
+   "id": "B-paracou",
+   "group": "Déclinaisons B",
+   "label": "Paracou",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "03_master/img/B-master.png",
+    "brand_kit/logo_B.png"
+   ],
+   "prompt": "The FIRST reference image is the MASTER product photo: keep EXACTLY the same product, construction, proportions, board, camera angle, framing, light, background and patch. Change ONLY the colors or print of the canvas panel and of the straps as specified. The second image is the logo on the patch, unchanged.\n\nNEW COLORWAY: panel lemon-yellow #F5E663, straps mandarine #F26A2E. Everything else identical to the master. No text."
+  },
+  {
+   "id": "B-remblai",
+   "group": "Déclinaisons B",
+   "label": "Remblai",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "03_master/img/B-master.png",
+    "brand_kit/logo_B.png"
+   ],
+   "prompt": "The FIRST reference image is the MASTER product photo: keep EXACTLY the same product, construction, proportions, board, camera angle, framing, light, background and patch. Change ONLY the colors or print of the canvas panel and of the straps as specified. The second image is the logo on the patch, unchanged.\n\nNEW COLORWAY: panel pool-blue #4FB3D9, straps white. Everything else identical to the master. No text."
+  },
+  {
+   "id": "B-puits-d-enfer",
+   "group": "Déclinaisons B",
+   "label": "Puits d'Enfer",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "03_master/img/B-master.png",
+    "brand_kit/logo_B.png"
+   ],
+   "prompt": "The FIRST reference image is the MASTER product photo: keep EXACTLY the same product, construction, proportions, board, camera angle, framing, light, background and patch. Change ONLY the colors or print of the canvas panel and of the straps as specified. The second image is the logo on the patch, unchanged.\n\nNEW COLORWAY: panel black canvas, straps lemon-yellow #F5E663. Everything else identical to the master. No text."
+  },
+  {
+   "id": "B-pare-vent",
+   "group": "Déclinaisons B",
+   "label": "Pare-vent",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "03_master/img/B-master.png",
+    "brand_kit/logo_B.png"
+   ],
+   "prompt": "The FIRST reference image is the MASTER product photo: keep EXACTLY the same product, construction, proportions, board, camera angle, framing, light, background and patch. Change ONLY the colors or print of the canvas panel and of the straps as specified. The second image is the logo on the patch, unchanged.\n\nNEW COLORWAY: panel in a bold vertical-striped canvas like a 1970s beach windbreak (mandarine, pool blue, lemon, white stripes), straps pool-blue #4FB3D9. Everything else identical to the master. No text."
+  },
+  {
+   "id": "D-pleine-lune",
+   "group": "Déclinaisons D",
+   "label": "Pleine Lune",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "03_master/img/D-master.png",
+    "brand_kit/logo_D.png"
+   ],
+   "prompt": "The FIRST reference image is the MASTER product photo: keep EXACTLY the same product, construction, proportions, board, camera angle, framing, light, background and patch. Change ONLY the colors or print of the canvas panel and of the straps as specified. The second image is the logo on the patch, unchanged.\n\nNEW COLORWAY: panel mint #BFE3D6, straps mustard #D9A431. Everything else identical to the master. No text."
+  },
+  {
+   "id": "D-croissant",
+   "group": "Déclinaisons D",
+   "label": "Croissant",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "03_master/img/D-master.png",
+    "brand_kit/logo_D.png"
+   ],
+   "prompt": "The FIRST reference image is the MASTER product photo: keep EXACTLY the same product, construction, proportions, board, camera angle, framing, light, background and patch. Change ONLY the colors or print of the canvas panel and of the straps as specified. The second image is the logo on the patch, unchanged.\n\nNEW COLORWAY: panel pale pink #F3D3DC, straps powder blue #BBD7EE. Everything else identical to the master. No text."
+  },
+  {
+   "id": "D-premier-quartier",
+   "group": "Déclinaisons D",
+   "label": "Premier Quartier",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "03_master/img/D-master.png",
+    "brand_kit/logo_D.png"
+   ],
+   "prompt": "The FIRST reference image is the MASTER product photo: keep EXACTLY the same product, construction, proportions, board, camera angle, framing, light, background and patch. Change ONLY the colors or print of the canvas panel and of the straps as specified. The second image is the logo on the patch, unchanged.\n\nNEW COLORWAY: panel cream #FBF7EF, straps mint #BFE3D6. Everything else identical to the master. No text."
+  },
+  {
+   "id": "D-gibbeuse",
+   "group": "Déclinaisons D",
+   "label": "Gibbeuse",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "03_master/img/D-master.png",
+    "brand_kit/logo_D.png"
+   ],
+   "prompt": "The FIRST reference image is the MASTER product photo: keep EXACTLY the same product, construction, proportions, board, camera angle, framing, light, background and patch. Change ONLY the colors or print of the canvas panel and of the straps as specified. The second image is the logo on the patch, unchanged.\n\nNEW COLORWAY: panel mustard #D9A431, straps cream. Everything else identical to the master. No text."
+  },
+  {
+   "id": "D-lune-rousse",
+   "group": "Déclinaisons D",
+   "label": "Lune Rousse",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "03_master/img/D-master.png",
+    "brand_kit/logo_D.png"
+   ],
+   "prompt": "The FIRST reference image is the MASTER product photo: keep EXACTLY the same product, construction, proportions, board, camera angle, framing, light, background and patch. Change ONLY the colors or print of the canvas panel and of the straps as specified. The second image is the logo on the patch, unchanged.\n\nNEW COLORWAY: panel terracotta-pink #E7A18C, straps mint #BFE3D6. Everything else identical to the master. No text."
+  },
+  {
+   "id": "D-toile-de-lune",
+   "group": "Déclinaisons D",
+   "label": "Toile de Lune",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "03_master/img/D-master.png",
+    "brand_kit/logo_D.png"
+   ],
+   "prompt": "The FIRST reference image is the MASTER product photo: keep EXACTLY the same product, construction, proportions, board, camera angle, framing, light, background and patch. Change ONLY the colors or print of the canvas panel and of the straps as specified. The second image is the logo on the patch, unchanged.\n\nNEW COLORWAY: panel in a toile-de-Jouy style print on cream: delicate powder-blue engravings of beach cabins, crescent moons, waves and small surfers; straps powder blue #BBD7EE. Everything else identical to the master. No text."
+  }
+ ]
+}

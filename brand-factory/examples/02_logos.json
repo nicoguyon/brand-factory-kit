@@ -1,0 +1,152 @@
+{
+ "step": "02_logos",
+ "title": "Logos : tout sur l'initiale",
+ "intro": "Des logos qui frappent, construits sur la première lettre du nom. Deux essais par idée, en GPT Image 2.5 (texte lisible).",
+ "choose": "group",
+ "jobs": [
+  {
+   "id": "B1-le-a-sling-1",
+   "group": "Annabelle Club · le a sling",
+   "label": "B1-le-a-sling · essai 1",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE CLUB, a cheeky fictional 1974 surf club from Les Sables-d'Olonne. Martin Parr humour, pop 1970s, confident and a little provocative. Palette: mandarine #F26A2E, pool blue #4FB3D9, lemon #F5E663, pistachio #B5D99C, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: the capital letter A IS the product. The two diagonal legs of a huge geometric A are the two flat webbing straps of a surfboard sling meeting at the apex like on a shoulder, and the crossbar is a longboard passing horizontally through a small mandarine canvas panel. Below, the wordmark ANNABELLE CLUB in heavy rounded 1970s capitals, and 'SABLES D'OLONNE 1974' tiny."
+  },
+  {
+   "id": "B1-le-a-sling-2",
+   "group": "Annabelle Club · le a sling",
+   "label": "B1-le-a-sling · essai 2",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE CLUB, a cheeky fictional 1974 surf club from Les Sables-d'Olonne. Martin Parr humour, pop 1970s, confident and a little provocative. Palette: mandarine #F26A2E, pool blue #4FB3D9, lemon #F5E663, pistachio #B5D99C, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: the capital letter A IS the product. The two diagonal legs of a huge geometric A are the two flat webbing straps of a surfboard sling meeting at the apex like on a shoulder, and the crossbar is a longboard passing horizontally through a small mandarine canvas panel. Below, the wordmark ANNABELLE CLUB in heavy rounded 1970s capitals, and 'SABLES D'OLONNE 1974' tiny."
+  },
+  {
+   "id": "B2-trace-de-bronzage-1",
+   "group": "Annabelle Club · trace de bronzage",
+   "label": "B2-trace-de-bronzage · essai 1",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE CLUB, a cheeky fictional 1974 surf club from Les Sables-d'Olonne. Martin Parr humour, pop 1970s, confident and a little provocative. Palette: mandarine #F26A2E, pool blue #4FB3D9, lemon #F5E663, pistachio #B5D99C, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: the tan line. A close crop of a sunburnt shoulder and back in flat pop colors, where the pale untanned strap marks left by a swimsuit form a perfect capital letter A on the red-orange sunburnt skin. Funny, cheeky, unforgettable. Below, ANNABELLE CLUB in heavy rounded 1970s capitals."
+  },
+  {
+   "id": "B2-trace-de-bronzage-2",
+   "group": "Annabelle Club · trace de bronzage",
+   "label": "B2-trace-de-bronzage · essai 2",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE CLUB, a cheeky fictional 1974 surf club from Les Sables-d'Olonne. Martin Parr humour, pop 1970s, confident and a little provocative. Palette: mandarine #F26A2E, pool blue #4FB3D9, lemon #F5E663, pistachio #B5D99C, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: the tan line. A close crop of a sunburnt shoulder and back in flat pop colors, where the pale untanned strap marks left by a swimsuit form a perfect capital letter A on the red-orange sunburnt skin. Funny, cheeky, unforgettable. Below, ANNABELLE CLUB in heavy rounded 1970s capitals."
+  },
+  {
+   "id": "B3-a-aileron-1",
+   "group": "Annabelle Club · a aileron",
+   "label": "B3-a-aileron · essai 1",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE CLUB, a cheeky fictional 1974 surf club from Les Sables-d'Olonne. Martin Parr humour, pop 1970s, confident and a little provocative. Palette: mandarine #F26A2E, pool blue #4FB3D9, lemon #F5E663, pistachio #B5D99C, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: a huge bold capital A shaped like a surfboard fin (or a shark fin) emerging from a flat pool-blue wave line, casting a small shadow; a single lemon sun dot. Deadpan and a little scary-funny, like a Jaws poster in 1974 beach colors. Below, ANNABELLE CLUB in heavy rounded capitals."
+  },
+  {
+   "id": "B3-a-aileron-2",
+   "group": "Annabelle Club · a aileron",
+   "label": "B3-a-aileron · essai 2",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE CLUB, a cheeky fictional 1974 surf club from Les Sables-d'Olonne. Martin Parr humour, pop 1970s, confident and a little provocative. Palette: mandarine #F26A2E, pool blue #4FB3D9, lemon #F5E663, pistachio #B5D99C, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: a huge bold capital A shaped like a surfboard fin (or a shark fin) emerging from a flat pool-blue wave line, casting a small shadow; a single lemon sun dot. Deadpan and a little scary-funny, like a Jaws poster in 1974 beach colors. Below, ANNABELLE CLUB in heavy rounded capitals."
+  },
+  {
+   "id": "B4-a-jambes-1",
+   "group": "Annabelle Club · a jambes",
+   "label": "B4-a-jambes · essai 1",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE CLUB, a cheeky fictional 1974 surf club from Les Sables-d'Olonne. Martin Parr humour, pop 1970s, confident and a little provocative. Palette: mandarine #F26A2E, pool blue #4FB3D9, lemon #F5E663, pistachio #B5D99C, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: a pop-art capital A formed by two long tanned legs in a mandarine one-piece swimsuit standing wide apart on the sand, seen from behind, with a longboard held horizontally forming the crossbar. Graphic, cheeky, tasteful, very 1970s poster. Below, ANNABELLE CLUB in heavy rounded capitals."
+  },
+  {
+   "id": "B4-a-jambes-2",
+   "group": "Annabelle Club · a jambes",
+   "label": "B4-a-jambes · essai 2",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE CLUB, a cheeky fictional 1974 surf club from Les Sables-d'Olonne. Martin Parr humour, pop 1970s, confident and a little provocative. Palette: mandarine #F26A2E, pool blue #4FB3D9, lemon #F5E663, pistachio #B5D99C, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: a pop-art capital A formed by two long tanned legs in a mandarine one-piece swimsuit standing wide apart on the sand, seen from behind, with a longboard held horizontally forming the crossbar. Graphic, cheeky, tasteful, very 1970s poster. Below, ANNABELLE CLUB in heavy rounded capitals."
+  },
+  {
+   "id": "D1-lune-dans-le-a-1",
+   "group": "Annabelle & la Lune · lune dans le a",
+   "label": "D1-lune-dans-le-a · essai 1",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE & LA LUNE, a tender surreal surf brand from Les Sables-d'Olonne. Luigi Ghirri and Wes Anderson: pastel, symmetrical, deadpan, poetic, with one strange detail. Palette: mint #BFE3D6, mustard #D9A431, powder blue #BBD7EE, pale pink #F3D3DC, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: a tall elegant serif capital A in ink whose triangular counter (the hole inside the A) holds a perfect pale full moon, as if the moon were trapped inside the letter; a thin mustard horizon line crosses at the crossbar. Below, 'ANNABELLE & LA LUNE' in spaced delicate capitals."
+  },
+  {
+   "id": "D1-lune-dans-le-a-2",
+   "group": "Annabelle & la Lune · lune dans le a",
+   "label": "D1-lune-dans-le-a · essai 2",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE & LA LUNE, a tender surreal surf brand from Les Sables-d'Olonne. Luigi Ghirri and Wes Anderson: pastel, symmetrical, deadpan, poetic, with one strange detail. Palette: mint #BFE3D6, mustard #D9A431, powder blue #BBD7EE, pale pink #F3D3DC, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: a tall elegant serif capital A in ink whose triangular counter (the hole inside the A) holds a perfect pale full moon, as if the moon were trapped inside the letter; a thin mustard horizon line crosses at the crossbar. Below, 'ANNABELLE & LA LUNE' in spaced delicate capitals."
+  },
+  {
+   "id": "D2-a-reflet-1",
+   "group": "Annabelle & la Lune · a reflet",
+   "label": "D2-a-reflet · essai 1",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE & LA LUNE, a tender surreal surf brand from Les Sables-d'Olonne. Luigi Ghirri and Wes Anderson: pastel, symmetrical, deadpan, poetic, with one strange detail. Palette: mint #BFE3D6, mustard #D9A431, powder blue #BBD7EE, pale pink #F3D3DC, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: a capital A standing on a flat mint sea, with its mirror reflection below the waterline, so the letter and its reflection form a perfect diamond; a tiny crescent moon floats exactly above the apex. Symmetrical, silent, hypnotic. Below, 'ANNABELLE & LA LUNE' in spaced capitals."
+  },
+  {
+   "id": "D2-a-reflet-2",
+   "group": "Annabelle & la Lune · a reflet",
+   "label": "D2-a-reflet · essai 2",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE & LA LUNE, a tender surreal surf brand from Les Sables-d'Olonne. Luigi Ghirri and Wes Anderson: pastel, symmetrical, deadpan, poetic, with one strange detail. Palette: mint #BFE3D6, mustard #D9A431, powder blue #BBD7EE, pale pink #F3D3DC, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: a capital A standing on a flat mint sea, with its mirror reflection below the waterline, so the letter and its reflection form a perfect diamond; a tiny crescent moon floats exactly above the apex. Symmetrical, silent, hypnotic. Below, 'ANNABELLE & LA LUNE' in spaced capitals."
+  },
+  {
+   "id": "D3-a-cabine-1",
+   "group": "Annabelle & la Lune · a cabine",
+   "label": "D3-a-cabine · essai 1",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE & LA LUNE, a tender surreal surf brand from Les Sables-d'Olonne. Luigi Ghirri and Wes Anderson: pastel, symmetrical, deadpan, poetic, with one strange detail. Palette: mint #BFE3D6, mustard #D9A431, powder blue #BBD7EE, pale pink #F3D3DC, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: two pastel beach cabins (mint and pale pink) leaning against each other to form a capital A, their roofs touching at the apex, a longboard resting across them as the crossbar, and a big pale moon behind. Below, 'ANNABELLE & LA LUNE' in spaced capitals."
+  },
+  {
+   "id": "D3-a-cabine-2",
+   "group": "Annabelle & la Lune · a cabine",
+   "label": "D3-a-cabine · essai 2",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE & LA LUNE, a tender surreal surf brand from Les Sables-d'Olonne. Luigi Ghirri and Wes Anderson: pastel, symmetrical, deadpan, poetic, with one strange detail. Palette: mint #BFE3D6, mustard #D9A431, powder blue #BBD7EE, pale pink #F3D3DC, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: two pastel beach cabins (mint and pale pink) leaning against each other to form a capital A, their roofs touching at the apex, a longboard resting across them as the crossbar, and a big pale moon behind. Below, 'ANNABELLE & LA LUNE' in spaced capitals."
+  },
+  {
+   "id": "D4-a-phases-1",
+   "group": "Annabelle & la Lune · a phases",
+   "label": "D4-a-phases · essai 1",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE & LA LUNE, a tender surreal surf brand from Les Sables-d'Olonne. Luigi Ghirri and Wes Anderson: pastel, symmetrical, deadpan, poetic, with one strange detail. Palette: mint #BFE3D6, mustard #D9A431, powder blue #BBD7EE, pale pink #F3D3DC, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: a capital A drawn only with the phases of the moon: small discs from new moon to full moon to new moon placed along the two legs and the crossbar of the A, mustard and powder blue on cream, like an astronomical engraving. Below, 'ANNABELLE & LA LUNE' in spaced capitals."
+  },
+  {
+   "id": "D4-a-phases-2",
+   "group": "Annabelle & la Lune · a phases",
+   "label": "D4-a-phases · essai 2",
+   "engine": "gpt",
+   "ratio": "1:1",
+   "refs": [],
+   "prompt": "Bold, iconic logo for ANNABELLE & LA LUNE, a tender surreal surf brand from Les Sables-d'Olonne. Luigi Ghirri and Wes Anderson: pastel, symmetrical, deadpan, poetic, with one strange detail. Palette: mint #BFE3D6, mustard #D9A431, powder blue #BBD7EE, pale pink #F3D3DC, ink #1E2A44 on cream #FBF7EF. Flat vector-quality mark centered on a plain cream background, big margins, perfect spelling, no mockup, no extra words. The mark must be striking and memorable, readable at 2 cm. IDEA: a capital A drawn only with the phases of the moon: small discs from new moon to full moon to new moon placed along the two legs and the crossbar of the A, mustard and powder blue on cream, like an astronomical engraving. Below, 'ANNABELLE & LA LUNE' in spaced capitals."
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "slug": "annabelle-club",
+ "name": "Annabelle Club",
+ "tagline": "Le club de surf qui n'a jamais existé.",
+ "since": "Les Sables-d'Olonne · depuis 1974",
+ "lang": "fr",
+ "currency": "EUR",
+ "category": "sac-bandoulière porte-planche de surf",
+ "usage": "the surfboard passes through the canvas loop at the hip, the canvas wraps the middle of the board, the two straps go over the shoulder; never carried like a tote bag",
+ "fonts": {
+  "google": "family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,800;0,9..144,900;1,9..144,400&family=Archivo:wght@400;500;700",
+  "head": "Fraunces",
+  "body": "Archivo",
+  "h1_weight": 900,
+  "h2_weight": 800
+ },
+ "colors": {
+  "bg": "#FBF7EF",
+  "ink": "#1E2A44",
+  "ink2": "#56607a",
+  "line": "#EADFCC",
+  "accent": "#F26A2E",
+  "accent2": "#F5E663"
+ },
+ "logo": "brand_kit/logo_B.png",
+ "hero_style": "dark",
+ "hero_title": "Porte ta planche<br><i>comme une adhérente.</i>",
+ "hero_sub": "Le sac-bandoulière qui porte ta planche à la hanche, mains libres. Six couleurs de plage, fait main, 95 €.",
+ "heroes": [
+  "05_visuels/img/B-remblai.png",
+  "05_visuels/img/B-photo-du-club.png",
+  "05_visuels/img/B-renault.png"
+ ],
+ "lookbook": [
+  "05_visuels/img/B-buvette.png",
+  "05_visuels/img/B-coup-de-soleil.png",
+  "05_visuels/img/B-vue-du-ciel.png"
+ ],
+ "marquee": [
+  "Mains libres",
+  "Fait main",
+  "Toile doublée",
+  "Tailles M et L",
+  "Depuis 1974"
+ ],
+ "collection_title": "Six couleurs, un seul geste.",
+ "collection_sub": "Le même sac, fait main à la commande, en tailles M et L.",
+ "sizes": [
+  {
+   "id": "M",
+   "label": "M · jusqu'à 7'"
+  },
+  {
+   "id": "L",
+   "label": "L · jusqu'à 10'"
+  }
+ ],
+ "size_question": "Quelle taille de sac convient à la planche décrite dans `client` ? Un débutant a le plus souvent un longboard.",
+ "products": [
+  {
+   "id": "tanchet",
+   "name": "Tanchet",
+   "variant": "mandarine / pistache",
+   "colors": [
+    "#F26A2E",
+    "#B5D99C"
+   ],
+   "desc": "La couleur officielle du club.",
+   "price": 95,
+   "image": "04_declinaisons/img/B-tanchet.png"
+  },
+  {
+   "id": "sauveterre",
+   "name": "Sauveterre",
+   "variant": "lilas / citron",
+   "colors": [
+    "#C9A7E8",
+    "#F5E663"
+   ],
+   "desc": "Pour la plage des pins.",
+   "price": 95,
+   "image": "04_declinaisons/img/B-sauveterre.png"
+  },
+  {
+   "id": "pare-vent",
+   "name": "Pare-vent",
+   "variant": "rayures / piscine",
+   "colors": [
+    "#F26A2E",
+    "#4FB3D9"
+   ],
+   "desc": "La toile rayée des brise-vent de 1974.",
+   "price": 110,
+   "image": "04_declinaisons/img/B-pare-vent.png",
+   "badge": "imprimé"
+  }
+ ],
+ "how": [
+  [
+   "Glisse la planche",
+   "La planche passe dans la boucle de toile."
+  ],
+  [
+   "Sangles sur l'épaule",
+   "La planche se cale à la hanche."
+  ],
+  [
+   "Marche jusqu'à l'eau",
+   "Les mains restent libres."
+  ]
+ ],
+ "story": {
+  "title": "Un club pour celles qui commencent.",
+  "image": "05_visuels/img/B-debutantes.png",
+  "paragraphs": [
+   "Annabelle Club est né d'une envie simple : que porter sa planche ne soit plus la partie la plus pénible de la séance."
+  ]
+ },
+ "faq": [
+  [
+   "Comment se porte le sac ?",
+   "La planche passe dans la boucle de toile, les sangles sur l'épaule, la planche à la hanche."
+  ],
+  [
+   "Quelle taille choisir ?",
+   "M jusqu'à 7 pieds, L jusqu'à 10 pieds."
+  ]
+ ],
+ "tryon": {
+  "mode": "wear",
+  "scene": "walking on a crowded, colourful 1970s-style summer beach, hard sunlight, saturated pop colours, carrying a pale longboard",
+  "trait_question": "Le client débute-t-il ?",
+  "title": "Essaie-le sur toi.",
+  "models": [
+   {
+    "id": "annabelle",
+    "name": "Annabelle",
+    "image": "personne/visage.jpg",
+    "profile": "Je débute, je surfe tôt le matin, j'adore les couleurs vives, longboard de 9 pieds"
+   }
+  ],
+  "chips": [
+   "Je débute, je surfe l'été au milieu de la foule, j'adore les couleurs qui pètent",
+   "Je suis nostalgique des années 70, j'adore les rayures"
+  ]
+ },
+ "film": {
+  "url": "",
+  "poster": "",
+  "title": ""
+ },
+ "domain": "",
+ "demo_banner": true,
+ "noindex": true,
+ "feature_html": "",
+ "feature_js": "",
+ "sites": [
+  {
+   "slug": "annabelle-club",
+   "name": "Annabelle Club",
+   "url": "https://annabelle-club.comptoiria.com",
+   "pitch": "Pop, 1974, carte de membre, essayage live"
+  }
+ ]
+}

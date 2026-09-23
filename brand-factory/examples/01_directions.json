@@ -1,0 +1,179 @@
+{
+ "step": "01_directions",
+ "title": "Quatre directions artistiques",
+ "intro": "Quatre univers qui ne se ressemblent pas, chacun avec un hero photo d'art, une variante éditoriale et un packshot. Choisis une direction (ou deux, séparément).",
+ "choose": "group",
+ "jobs": [
+  {
+   "id": "A-art",
+   "group": "Direction A · Sable De Lune",
+   "label": "Hero « photo d'art »",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg"
+   ],
+   "prompt": "Reference photos attached (3 images): the EXACT product to reproduce, only the colors change. A handmade surfboard carry sling: a flat rectangular panel of thick cotton canvas (about 60 x 48 cm) with two long flat cotton webbing straps. HOW IT IS WORN (important): the board passes THROUGH the loop formed by the panel and the straps: the panel wraps under and around the middle of the longboard, so the lower half of the panel is hidden under the board and only the upper part of the panel shows over the middle of the board; the straps go up over the shoulder; the board hangs horizontally at the hip, nose forward, tail behind; the board stays fully visible except its middle. A small round embroidered patch on the panel (a simple line drawing, no letters). Never a bag hanging in front of the body, never a zip, never padding.\n\nART PHOTOGRAPH, not a commercial image. In the manner of Sarah Moon and Todd Hido: a nocturne at Les Sables-d'Olonne, Vendée: the long Grande Plage at low tide under a hazy full moon, the far promenade lamps dissolved into soft halos, the row of small white beach cabins barely legible in the dark. A woman in a black long-sleeve swimsuit and loose ivory trousers walks along the water carrying a pale longboard in the sling (moon-ivory panel, night-navy straps); she is half-dissolved in a slow-shutter motion blur while the sand and the moon reflection stay sharp. Heavy organic grain, soft focus, cyan-blue and silver palette with one warm amber lamp, dreamlike, melancholic, painterly. Medium-format film, 1/4 s handheld. Subject on the right third, empty silver beach on the left.\n\nNegative: no text, no letters, no logos, no watermark, no extra fingers or limbs, no distorted hands, no plastic skin, no CGI look, no stock-photo smiles, no zip, no padded board cover."
+  },
+  {
+   "id": "A-hero",
+   "group": "Direction A · Sable De Lune",
+   "label": "Variante éditoriale",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg"
+   ],
+   "prompt": "Reference photos attached (3 images): they show the EXACT product to reproduce, only the colors change. It is a handmade surfboard carry sling: a flat rectangular panel of thick cotton canvas (about 60 x 48 cm) that wraps under and around the middle of a longboard, with two long flat cotton webbing straps sewn onto the panel that join over the shoulder, so the board hangs horizontally at the hip, nose forward, tail behind. The board itself stays fully visible; only its middle is covered by the panel. A small round embroidered patch sits on the panel (a simple line drawing, no letters). Keep this construction identical in every image: rectangular panel, two flat straps, board carried horizontally on the shoulder. No zip, no padding, no other bag.\n\nEditorial fashion photograph, night surf, Les Sables-d'Olonne (Vendée, France): the long straight Grande Plage at low tide under a full moon, the Remblai promenade with its row of small white beach cabins and a few warm street lamps far behind, wet sand mirroring a silver sky. A tall athletic woman in her early 30s with dark salt-tousled hair, wearing a black long-sleeve rash guard and loose ivory trousers, walks barefoot toward the sea carrying a pale-grey longboard in the sling. COLORWAY: panel in moon-ivory canvas, straps in deep night-navy webbing. Light: moonlight plus the faint warm glow of the promenade, long-exposure feel, silky sea, silver highlights, blue-black shadows, fine grain, Kodak Portra pushed, cinematic, quiet. Camera: 50mm f/2, low angle, subject on the right third, vast empty silver beach on the left for a headline. Photorealistic, 16:9.\n\nNegative: no text, no letters, no logos, no watermark, no extra fingers or limbs, no distorted hands, no plastic skin, no CGI look, no stock-photo posing, no zip, no padded surfboard bag, no board cover that hides the whole board."
+  },
+  {
+   "id": "A-pack",
+   "group": "Direction A · Sable De Lune",
+   "label": "Packshot",
+   "engine": "nano",
+   "ratio": "1:1",
+   "size": "2K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg"
+   ],
+   "prompt": "Reference photos attached (3 images): they show the EXACT product to reproduce, only the colors change. It is a handmade surfboard carry sling: a flat rectangular panel of thick cotton canvas (about 60 x 48 cm) that wraps under and around the middle of a longboard, with two long flat cotton webbing straps sewn onto the panel that join over the shoulder, so the board hangs horizontally at the hip, nose forward, tail behind. The board itself stays fully visible; only its middle is covered by the panel. A small round embroidered patch sits on the panel (a simple line drawing, no letters). Keep this construction identical in every image: rectangular panel, two flat straps, board carried horizontally on the shoulder. No zip, no padding, no other bag.\n\nProduct still life, top-down flat lay on dark wet sand at night lit by a single cool moonlight and a faint warm rim: the surfboard sling laid flat and open, panel in moon-ivory canvas, straps in deep night-navy webbing folded in a soft loop, the small round embroidered patch visible, a few grains of sand and a thin line of foam at the edge of the frame, a small silver-grey longboard fin beside it. Silver and blue-black palette, matte textures, fine grain, museum-quality product photography, square 1:1. Photorealistic.\n\nNegative: no text, no letters, no logos, no watermark, no extra fingers or limbs, no distorted hands, no plastic skin, no CGI look, no stock-photo posing, no zip, no padded surfboard bag, no board cover that hides the whole board."
+  },
+  {
+   "id": "B-art",
+   "group": "Direction B · Annabelle Club",
+   "label": "Hero « photo d'art »",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg"
+   ],
+   "prompt": "Reference photos attached (3 images): the EXACT product to reproduce, only the colors change. A handmade surfboard carry sling: a flat rectangular panel of thick cotton canvas (about 60 x 48 cm) with two long flat cotton webbing straps. HOW IT IS WORN (important): the board passes THROUGH the loop formed by the panel and the straps: the panel wraps under and around the middle of the longboard, so the lower half of the panel is hidden under the board and only the upper part of the panel shows over the middle of the board; the straps go up over the shoulder; the board hangs horizontally at the hip, nose forward, tail behind; the board stays fully visible except its middle. A small round embroidered patch on the panel (a simple line drawing, no letters). Never a bag hanging in front of the body, never a zip, never padding.\n\nART PHOTOGRAPH in the manner of Martin Parr's 'Life's a Beach' meets Massimo Vitali: a crowded summer afternoon on the Grande Plage of Les Sables-d'Olonne seen from slightly above, hyper-saturated ring-flash daylight, sunburnt holidaymakers, striped windbreaks, plastic buckets, a child eating an ice cream, parasols in every color. Dead center of the chaos, perfectly deadpan and looking straight at the camera, a woman in a red 1970s one-piece swimsuit carries a pool-blue longboard in the sling (mandarine-orange panel, pistachio straps); nobody else notices her. Humorous, decalé, documentary, razor sharp, Kodak Ektar saturation, 35mm, everything in focus, wide frame with space in the upper left for a headline.\n\nNegative: no text, no letters, no logos, no watermark, no extra fingers or limbs, no distorted hands, no plastic skin, no CGI look, no stock-photo smiles, no zip, no padded board cover."
+  },
+  {
+   "id": "B-hero",
+   "group": "Direction B · Annabelle Club",
+   "label": "Variante éditoriale",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg"
+   ],
+   "prompt": "Reference photos attached (3 images): they show the EXACT product to reproduce, only the colors change. It is a handmade surfboard carry sling: a flat rectangular panel of thick cotton canvas (about 60 x 48 cm) that wraps under and around the middle of a longboard, with two long flat cotton webbing straps sewn onto the panel that join over the shoulder, so the board hangs horizontally at the hip, nose forward, tail behind. The board itself stays fully visible; only its middle is covered by the panel. A small round embroidered patch sits on the panel (a simple line drawing, no letters). Keep this construction identical in every image: rectangular panel, two flat straps, board carried horizontally on the shoulder. No zip, no padding, no other bag.\n\nEditorial snapshot in the spirit of Jacques Henri Lartigue in color, 1974 summer, Les Sables-d'Olonne, Vendée, France: the Remblai promenade with its row of striped beach cabins, hard midday sun, saturated pop colors. Three friends in their late 20s laugh as they walk toward the beach, each carrying a longboard in the sling: the first woman (blond bob, red one-piece swimsuit, white shorts) has a MANDARINE-ORANGE panel with PISTACHIO-GREEN straps on a pool-blue longboard; the second (dark curls, striped top) has a LILAC panel with LEMON-YELLOW straps on a white board; the third (short hair, terry-cloth polo) has a LEMON-YELLOW panel with MANDARINE straps on a mint board. A vintage bicycle leans on the railing. Joyful, candid, slightly kitsch-chic, crisp shadows, Kodachrome look, 35mm, subject group on the right two-thirds, bright sky on the left for a headline. Photorealistic, 16:9.\n\nNegative: no text, no letters, no logos, no watermark, no extra fingers or limbs, no distorted hands, no plastic skin, no CGI look, no stock-photo posing, no zip, no padded surfboard bag, no board cover that hides the whole board."
+  },
+  {
+   "id": "B-pack",
+   "group": "Direction B · Annabelle Club",
+   "label": "Packshot",
+   "engine": "nano",
+   "ratio": "1:1",
+   "size": "2K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg"
+   ],
+   "prompt": "Reference photos attached (3 images): they show the EXACT product to reproduce, only the colors change. It is a handmade surfboard carry sling: a flat rectangular panel of thick cotton canvas (about 60 x 48 cm) that wraps under and around the middle of a longboard, with two long flat cotton webbing straps sewn onto the panel that join over the shoulder, so the board hangs horizontally at the hip, nose forward, tail behind. The board itself stays fully visible; only its middle is covered by the panel. A small round embroidered patch sits on the panel (a simple line drawing, no letters). Keep this construction identical in every image: rectangular panel, two flat straps, board carried horizontally on the shoulder. No zip, no padding, no other bag.\n\nProduct still life, playful pop: three surfboard slings hung side by side on a striped beach-cabin wall in hard midday sun, each on a small hook, straps hanging straight: mandarine-orange panel with pistachio straps, lilac panel with lemon-yellow straps, lemon-yellow panel with mandarine straps; small round embroidered patches visible; crisp hard shadows on the painted wood, Kodachrome 1974 saturation, square 1:1. Photorealistic.\n\nNegative: no text, no letters, no logos, no watermark, no extra fingers or limbs, no distorted hands, no plastic skin, no CGI look, no stock-photo posing, no zip, no padded surfboard bag, no board cover that hides the whole board."
+  },
+  {
+   "id": "C-art",
+   "group": "Direction C · Maison Annabelle",
+   "label": "Hero « photo d'art »",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg"
+   ],
+   "prompt": "Reference photos attached (3 images): the EXACT product to reproduce, only the colors change. A handmade surfboard carry sling: a flat rectangular panel of thick cotton canvas (about 60 x 48 cm) with two long flat cotton webbing straps. HOW IT IS WORN (important): the board passes THROUGH the loop formed by the panel and the straps: the panel wraps under and around the middle of the longboard, so the lower half of the panel is hidden under the board and only the upper part of the panel shows over the middle of the board; the straps go up over the shoulder; the board hangs horizontally at the hip, nose forward, tail behind; the board stays fully visible except its middle. A small round embroidered patch on the panel (a simple line drawing, no letters). Never a bag hanging in front of the body, never a zip, never padding.\n\nART FASHION PHOTOGRAPH in the manner of Viviane Sassen and Harley Weir: graphic hard midday sun, the body as sculpture. On the pale sand of Les Sables-d'Olonne a tall model in a black swimsuit is folded in a geometric pose, bent at the waist, face hidden by her own shadow and hair, carrying a raw ecru longboard in the sling (powder-pink panel, tobacco-brown straps); the board and the body cast one sharp black shadow that forms a second figure on the sand. Bold color blocks: pink, ochre sand, cobalt sea, black shadow. Surreal, sculptural, museum-quality, medium format, high contrast, fine grain. Subject on the right, empty ochre sand on the left.\n\nNegative: no text, no letters, no logos, no watermark, no extra fingers or limbs, no distorted hands, no plastic skin, no CGI look, no stock-photo smiles, no zip, no padded board cover."
+  },
+  {
+   "id": "C-hero",
+   "group": "Direction C · Maison Annabelle",
+   "label": "Variante éditoriale",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg"
+   ],
+   "prompt": "Reference photos attached (3 images): they show the EXACT product to reproduce, only the colors change. It is a handmade surfboard carry sling: a flat rectangular panel of thick cotton canvas (about 60 x 48 cm) that wraps under and around the middle of a longboard, with two long flat cotton webbing straps sewn onto the panel that join over the shoulder, so the board hangs horizontally at the hip, nose forward, tail behind. The board itself stays fully visible; only its middle is covered by the panel. A small round embroidered patch sits on the panel (a simple line drawing, no letters). Keep this construction identical in every image: rectangular panel, two flat straps, board carried horizontally on the shoulder. No zip, no padding, no other bag.\n\nHigh-fashion editorial photograph in the manner of Peter Lindbergh, black and white with the product kept in color (selective color): a tall model with wet slicked-back hair and a plain black swimsuit stands on a deserted beach at Les Sables-d'Olonne facing the camera, a raw ecru longboard carried horizontally in the sling at the hip; the sling is the only color in the frame: powder-pink cotton panel and tobacco-brown webbing straps, small round embroidered patch. Wind, sea spray, overcast silver light, raw skin texture, 90mm f/2.8, medium format, monochrome grain, the model on the right third, empty grey sea on the left for a headline. Photorealistic, 16:9.\n\nNegative: no text, no letters, no logos, no watermark, no extra fingers or limbs, no distorted hands, no plastic skin, no CGI look, no stock-photo posing, no zip, no padded surfboard bag, no board cover that hides the whole board."
+  },
+  {
+   "id": "C-pack",
+   "group": "Direction C · Maison Annabelle",
+   "label": "Packshot",
+   "engine": "nano",
+   "ratio": "1:1",
+   "size": "2K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg"
+   ],
+   "prompt": "Reference photos attached (3 images): they show the EXACT product to reproduce, only the colors change. It is a handmade surfboard carry sling: a flat rectangular panel of thick cotton canvas (about 60 x 48 cm) that wraps under and around the middle of a longboard, with two long flat cotton webbing straps sewn onto the panel that join over the shoulder, so the board hangs horizontally at the hip, nose forward, tail behind. The board itself stays fully visible; only its middle is covered by the panel. A small round embroidered patch sits on the panel (a simple line drawing, no letters). Keep this construction identical in every image: rectangular panel, two flat straps, board carried horizontally on the shoulder. No zip, no padding, no other bag.\n\nLuxury product photograph, studio: the surfboard sling standing on a raw ecru longboard laid on a plaster-white plinth, powder-pink thick cotton canvas panel and tobacco-brown webbing straps draped in a clean loop, the small round embroidered patch, a single soft north-light window, long soft shadow, ecru seamless background, the stitching and the weave of the canvas razor sharp, timeless fashion-house still life, square 1:1. Photorealistic.\n\nNegative: no text, no letters, no logos, no watermark, no extra fingers or limbs, no distorted hands, no plastic skin, no CGI look, no stock-photo posing, no zip, no padded surfboard bag, no board cover that hides the whole board."
+  },
+  {
+   "id": "D-art",
+   "group": "Direction D · Annabelle Et La Lune",
+   "label": "Hero « photo d'art »",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg"
+   ],
+   "prompt": "Reference photos attached (3 images): the EXACT product to reproduce, only the colors change. A handmade surfboard carry sling: a flat rectangular panel of thick cotton canvas (about 60 x 48 cm) with two long flat cotton webbing straps. HOW IT IS WORN (important): the board passes THROUGH the loop formed by the panel and the straps: the panel wraps under and around the middle of the longboard, so the lower half of the panel is hidden under the board and only the upper part of the panel shows over the middle of the board; the straps go up over the shoulder; the board hangs horizontally at the hip, nose forward, tail behind; the board stays fully visible except its middle. A small round embroidered patch on the panel (a simple line drawing, no letters). Never a bag hanging in front of the body, never a zip, never padding.\n\nART PHOTOGRAPH in the manner of Luigi Ghirri and Wes Anderson: pastel, deadpan, planimetric, faded Kodachrome. The row of small pastel beach cabins of Les Sables-d'Olonne seen perfectly frontally, a flat mint sea, an oversized pale full moon low in a powder-blue daytime sky. A small figure in a mustard 1960s swimsuit and white bathing cap stands perfectly still and centered, holding a pastel-yellow longboard in the sling (mint panel, mustard straps). Empty, quiet, melancholic humor, symmetrical, flat even light, everything sharp, wide empty sky for a headline.\n\nNegative: no text, no letters, no logos, no watermark, no extra fingers or limbs, no distorted hands, no plastic skin, no CGI look, no stock-photo smiles, no zip, no padded board cover."
+  },
+  {
+   "id": "D-hero",
+   "group": "Direction D · Annabelle Et La Lune",
+   "label": "Variante éditoriale",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg"
+   ],
+   "prompt": "Reference photos attached (3 images): they show the EXACT product to reproduce, only the colors change. It is a handmade surfboard carry sling: a flat rectangular panel of thick cotton canvas (about 60 x 48 cm) that wraps under and around the middle of a longboard, with two long flat cotton webbing straps sewn onto the panel that join over the shoulder, so the board hangs horizontally at the hip, nose forward, tail behind. The board itself stays fully visible; only its middle is covered by the panel. A small round embroidered patch sits on the panel (a simple line drawing, no letters). Keep this construction identical in every image: rectangular panel, two flat straps, board carried horizontally on the shoulder. No zip, no padding, no other bag.\n\nSurreal deadpan photograph in the manner of Wes Anderson meets René Magritte: perfectly symmetrical frontal composition on the beach at Les Sables-d'Olonne, a single small pastel-mint beach cabin dead center, a woman in a mustard-yellow 1960s swimsuit and a white bathing cap standing perfectly still in front of it, holding a pastel-yellow longboard horizontally in the sling: MINT panel with MUSTARD straps, small round embroidered patch. Behind, an impossibly large pale full moon sits low on the horizon in a pastel-blue daytime sky, the sea a flat mint line. Pastel palette (mint, mustard, powder blue, pale pink), flat even light, planimetric, 40mm, subject small and centered, wide empty sky for a headline. Photorealistic, 16:9.\n\nNegative: no text, no letters, no logos, no watermark, no extra fingers or limbs, no distorted hands, no plastic skin, no CGI look, no stock-photo posing, no zip, no padded surfboard bag, no board cover that hides the whole board."
+  },
+  {
+   "id": "D-pack",
+   "group": "Direction D · Annabelle Et La Lune",
+   "label": "Packshot",
+   "engine": "nano",
+   "ratio": "1:1",
+   "size": "2K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg"
+   ],
+   "prompt": "Reference photos attached (3 images): they show the EXACT product to reproduce, only the colors change. It is a handmade surfboard carry sling: a flat rectangular panel of thick cotton canvas (about 60 x 48 cm) that wraps under and around the middle of a longboard, with two long flat cotton webbing straps sewn onto the panel that join over the shoulder, so the board hangs horizontally at the hip, nose forward, tail behind. The board itself stays fully visible; only its middle is covered by the panel. A small round embroidered patch sits on the panel (a simple line drawing, no letters). Keep this construction identical in every image: rectangular panel, two flat straps, board carried horizontally on the shoulder. No zip, no padding, no other bag.\n\nSurreal product still life, symmetrical and deadpan: the surfboard sling floating upright in the air dead center above a flat pastel-mint sea at Les Sables-d'Olonne, MINT canvas panel with MUSTARD webbing straps forming a perfect loop, small round embroidered patch, a small pale moon exactly above it, pastel-blue sky, no people, flat even light, Wes Anderson × Magritte, square 1:1. Photorealistic.\n\nNegative: no text, no letters, no logos, no watermark, no extra fingers or limbs, no distorted hands, no plastic skin, no CGI look, no stock-photo posing, no zip, no padded surfboard bag, no board cover that hides the whole board."
+  }
+ ],
+ "critique": {
+  "A-art": "Exemple de regard critique : ambiance juste, mais le sac est porté comme un cabas devant la planche, c'est faux."
+ }
+}

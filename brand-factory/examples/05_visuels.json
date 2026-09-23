@@ -1,0 +1,258 @@
+{
+ "step": "05_visuels",
+ "title": "La série de visuels",
+ "intro": "Dix visuels par marque : la personne, une bande, le produit seul. Trois références par image : visage, produit, pose réelle.",
+ "choose": "none",
+ "jobs": [
+  {
+   "id": "B-remblai",
+   "group": "Annabelle Club",
+   "label": "remblai",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "personne/visage.jpg",
+    "04_declinaisons/img/B-pare-vent.png",
+    "poses/walk.jpg"
+   ],
+   "prompt": "Reference images, in order:\n1. ANNABELLE: the brand muse, casting reference for the model's look.\n2. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n3. POSE AND REALISM REFERENCE: a real surf photograph; copy only the natural way a real surfer walks and holds a board, true proportions and real light. Do not copy the person or colours.\n\nANNABELLE (first reference image, the brand muse): same look as in the casting photo: SHORT curly brown hair (chin-length ringlets, never long or straight), large tortoiseshell glasses always on, warm smile, olive skin, natural body.\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE CLUB brand, Les Sables-d'Olonne, summer: pop 1970s colour photography in the manner of Martin Parr and Lartigue, hard daylight with fill flash, saturated Kodachrome colours, deadpan humour. The Remblai promenade with its row of white beach cabins, bright morning. Annabelle, in a striped terry-cloth top and white shorts, laughs as she walks toward the camera carrying a longboard in the striped Pare-vent sling; a vintage bicycle leans on the railing. Subject on the right third, open sky on the left.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "B-buvette",
+   "group": "Annabelle Club",
+   "label": "buvette",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "personne/visage.jpg",
+    "04_declinaisons/img/B-sauveterre.png",
+    "poses/side.jpg"
+   ],
+   "prompt": "Reference images, in order:\n1. ANNABELLE: the brand muse, casting reference for the model's look.\n2. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n3. POSE AND REALISM REFERENCE: a real surf photograph; copy only the natural way a real surfer walks and holds a board, true proportions and real light. Do not copy the person or colours.\n\nANNABELLE (first reference image, the brand muse): same look as in the casting photo: SHORT curly brown hair (chin-length ringlets, never long or straight), large tortoiseshell glasses always on, warm smile, olive skin, natural body.\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE CLUB brand, Les Sables-d'Olonne, summer: pop 1970s colour photography in the manner of Martin Parr and Lartigue, hard daylight with fill flash, saturated Kodachrome colours, deadpan humour. A 1970s beach snack bar with a striped awning and hand-painted menu boards without readable text. Annabelle, in a lilac swimsuit and glasses, leans at the counter eating a sugar crêpe, deadpan, her longboard in the lilac/lemon Sauveterre sling propped beside her; a sunburnt man in a bucket hat waits behind her. Flash, humour.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "B-photo-du-club",
+   "group": "Annabelle Club",
+   "label": "photo du club",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "personne/visage.jpg",
+    "04_declinaisons/img/B-tanchet.png",
+    "04_declinaisons/img/B-sauveterre.png",
+    "04_declinaisons/img/B-paracou.png",
+    "04_declinaisons/img/B-remblai.png",
+    "04_declinaisons/img/B-puits-d-enfer.png",
+    "04_declinaisons/img/B-pare-vent.png"
+   ],
+   "prompt": "Reference images, in order:\n1. ANNABELLE: the brand muse, casting reference for the model's look.\n2. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n3. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n4. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n5. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n6. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n7. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n\nANNABELLE (first reference image, the brand muse): same look as in the casting photo: SHORT curly brown hair (chin-length ringlets, never long or straight), large tortoiseshell glasses always on, warm smile, olive skin, natural body.\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE CLUB brand, Les Sables-d'Olonne, summer: pop 1970s colour photography in the manner of Martin Parr and Lartigue, hard daylight with fill flash, saturated Kodachrome colours, deadpan humour. The official 1974 club photograph: six women of different ages, body types and skin tones stand in a straight row on the sand in front of a white beach cabin, each holding her longboard vertically beside her, each board wearing a DIFFERENT sling from the six product references (mandarine/pistachio, lilac/lemon, lemon/mandarine, pool-blue/white, black/lemon, striped): on each vertical board the rectangular canvas panel is clearly visible wrapped around the middle of the board with its round embroidered patch facing the camera, the straps hanging from it. Annabelle stands in the middle, the six women are clearly different in age (20s to 50s), body type and skin tone (fair, olive, brown, dark). Everyone deadpan, arms straight, like a sports team photo. Frontal, centered, everything sharp.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "B-coup-de-soleil",
+   "group": "Annabelle Club",
+   "label": "coup de soleil",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "4K",
+   "refs": [
+    "04_declinaisons/img/B-tanchet.png"
+   ],
+   "prompt": "Reference images, in order:\n1. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE CLUB brand, Les Sables-d'Olonne, summer: pop 1970s colour photography in the manner of Martin Parr and Lartigue, hard daylight with fill flash, saturated Kodachrome colours, deadpan humour. Tight crop of a woman's sunburnt back and shoulders on the beach: the pale untanned marks left by swimsuit straps form a perfect capital letter A on the red-pink skin; the mandarine/pistachio sling strap rests over her shoulder, the edge of a white longboard at her hip. No face. Hard sun, sweat, sand grains, real skin texture. Funny and iconic.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "B-renault",
+   "group": "Annabelle Club",
+   "label": "renault",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "personne/visage.jpg",
+    "04_declinaisons/img/B-paracou.png",
+    "poses/carry.jpg"
+   ],
+   "prompt": "Reference images, in order:\n1. ANNABELLE: the brand muse, casting reference for the model's look.\n2. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n3. POSE AND REALISM REFERENCE: a real surf photograph; copy only the natural way a real surfer walks and holds a board, true proportions and real light. Do not copy the person or colours.\n\nANNABELLE (first reference image, the brand muse): same look as in the casting photo: SHORT curly brown hair (chin-length ringlets, never long or straight), large tortoiseshell glasses always on, warm smile, olive skin, natural body.\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE CLUB brand, Les Sables-d'Olonne, summer: pop 1970s colour photography in the manner of Martin Parr and Lartigue, hard daylight with fill flash, saturated Kodachrome colours, deadpan humour. A small car park above the beach, a faded lemon-yellow 1970s Renault 4 (no badges, no readable plates) with two longboards on its roof rack. Annabelle in a mandarine swimsuit and glasses slides a longboard onto the roof rack; the board wears the lemon/mandarine Paracou sling: the rectangular canvas panel is wrapped around the MIDDLE OF THE BOARD with its round patch visible and the straps hanging loose from it (the sling is on the board, NOT on her shoulder, NOT a tote bag); she laughs, the sea and striped parasols below.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "B-vue-du-ciel",
+   "group": "Annabelle Club",
+   "label": "vue du ciel",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "04_declinaisons/img/B-tanchet.png"
+   ],
+   "prompt": "Reference images, in order:\n1. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE CLUB brand, Les Sables-d'Olonne, summer: pop 1970s colour photography in the manner of Martin Parr and Lartigue, hard daylight with fill flash, saturated Kodachrome colours, deadpan humour. Straight top-down drone view of a packed beach at noon: hundreds of colourful towels, parasols, windbreaks and sunbathers form a mosaic; one woman walks diagonally through the crowd carrying a white longboard in a bright mandarine sling, the only moving figure. Graphic, humorous, everything sharp.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "B-puits-d-enfer",
+   "group": "Annabelle Club",
+   "label": "puits d enfer",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "04_declinaisons/img/B-puits-d-enfer.png",
+    "poses/walk.jpg"
+   ],
+   "prompt": "Reference images, in order:\n1. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n2. POSE AND REALISM REFERENCE: a real surf photograph; copy only the natural way a real surfer walks and holds a board, true proportions and real light. Do not copy the person or colours.\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE CLUB brand, Les Sables-d'Olonne, summer: pop 1970s colour photography in the manner of Martin Parr and Lartigue, hard daylight with fill flash, saturated Kodachrome colours, deadpan humour. The Puits d'Enfer rocky cove near Les Sables-d'Olonne: dark jagged rocks, a wave exploding into white spray. A tall woman surfer in a black wetsuit walks along the rocks toward the sea, carrying her longboard in the black/lemon Puits d'Enfer sling. Dramatic but still pop: lemon accents, hard sun, spray frozen.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "B-flat-lay",
+   "group": "Annabelle Club",
+   "label": "flat lay",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "4K",
+   "refs": [
+    "04_declinaisons/img/B-tanchet.png",
+    "04_declinaisons/img/B-sauveterre.png",
+    "04_declinaisons/img/B-paracou.png",
+    "04_declinaisons/img/B-remblai.png",
+    "04_declinaisons/img/B-puits-d-enfer.png",
+    "04_declinaisons/img/B-pare-vent.png"
+   ],
+   "prompt": "Reference images, in order:\n1. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n2. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n3. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n4. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n5. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n6. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE CLUB brand, Les Sables-d'Olonne, summer: pop 1970s colour photography in the manner of Martin Parr and Lartigue, hard daylight with fill flash, saturated Kodachrome colours, deadpan humour. Catalogue flat lay seen from directly above on a striped beach towel: the six slings from the product references laid flat side by side (straps folded), with melting ice lollies, 1970s sunglasses, a tube of sun cream without text, a seashell and sand grains. Hard sun, crisp shadows, joyful order.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "B-debutantes",
+   "group": "Annabelle Club",
+   "label": "debutantes",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "personne/visage.jpg",
+    "04_declinaisons/img/B-remblai.png",
+    "04_declinaisons/img/B-tanchet.png",
+    "04_declinaisons/img/B-sauveterre.png",
+    "poses/walk.jpg"
+   ],
+   "prompt": "Reference images, in order:\n1. ANNABELLE: the brand muse, casting reference for the model's look.\n2. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n3. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n4. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n5. POSE AND REALISM REFERENCE: a real surf photograph; copy only the natural way a real surfer walks and holds a board, true proportions and real light. Do not copy the person or colours.\n\nANNABELLE (first reference image, the brand muse): same look as in the casting photo: SHORT curly brown hair (chin-length ringlets, never long or straight), large tortoiseshell glasses always on, warm smile, olive skin, natural body.\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE CLUB brand, Les Sables-d'Olonne, summer: pop 1970s colour photography in the manner of Martin Parr and Lartigue, hard daylight with fill flash, saturated Kodachrome colours, deadpan humour. A surf lesson for beginner women on the beach: five beginners in rash guards line up on the sand laughing, soft-top longboards in front of them; Annabelle, glasses on, walks past carrying her board in the pool-blue sling and gives a thumbs up; two other boards wear the mandarine and lilac slings. Joyful, inclusive, real bodies, candid.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "D-rangee-cabines",
+   "group": "Annabelle & la Lune",
+   "label": "rangee cabines",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "04_declinaisons/img/D-pleine-lune.png",
+    "04_declinaisons/img/D-croissant.png",
+    "04_declinaisons/img/D-premier-quartier.png",
+    "04_declinaisons/img/D-gibbeuse.png",
+    "04_declinaisons/img/D-lune-rousse.png",
+    "04_declinaisons/img/D-toile-de-lune.png"
+   ],
+   "prompt": "Reference images, in order:\n1. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n2. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n3. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n4. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n5. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n6. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE & LA LUNE brand, Les Sables-d'Olonne: pastel surreal art photography in the manner of Luigi Ghirri and Wes Anderson, symmetrical planimetric framing, faded Kodachrome pastels (mint, mustard, powder blue, pale pink, cream), deadpan, quiet, one poetic strange detail. A perfectly frontal row of six pastel beach cabins on the sand, each a different pastel; on each door hangs one sling from the six product references, straps on a hook. A pale full moon sits exactly above the middle cabin in a powder-blue daytime sky. No people. Catalogue as a tableau.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "D-marche-vers-la-mer",
+   "group": "Annabelle & la Lune",
+   "label": "marche vers la mer",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "personne/visage.jpg",
+    "04_declinaisons/img/D-croissant.png",
+    "poses/walk.jpg"
+   ],
+   "prompt": "Reference images, in order:\n1. ANNABELLE: the brand muse, casting reference for the model's look.\n2. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n3. POSE AND REALISM REFERENCE: a real surf photograph; copy only the natural way a real surfer walks and holds a board, true proportions and real light. Do not copy the person or colours.\n\nANNABELLE (first reference image, the brand muse): same look as in the casting photo: SHORT curly brown hair (chin-length ringlets, never long or straight), large tortoiseshell glasses always on, warm smile, olive skin, natural body.\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE & LA LUNE brand, Les Sables-d'Olonne: pastel surreal art photography in the manner of Luigi Ghirri and Wes Anderson, symmetrical planimetric framing, faded Kodachrome pastels (mint, mustard, powder blue, pale pink, cream), deadpan, quiet, one poetic strange detail. Dawn, a flat pastel sea like glass, a setting moon low on the horizon. Seen perfectly from behind and centered, Annabelle walks into the shallow water in a pale pink swimsuit, carrying her longboard in the pink/blue Croissant sling at her hip, her short curls and glasses arm visible. Mirror reflections, silence.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "D-deux-lunes",
+   "group": "Annabelle & la Lune",
+   "label": "deux lunes",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "personne/visage.jpg",
+    "04_declinaisons/img/D-premier-quartier.png",
+    "poses/carry.jpg"
+   ],
+   "prompt": "Reference images, in order:\n1. ANNABELLE: the brand muse, casting reference for the model's look.\n2. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n3. POSE AND REALISM REFERENCE: a real surf photograph; copy only the natural way a real surfer walks and holds a board, true proportions and real light. Do not copy the person or colours.\n\nANNABELLE (first reference image, the brand muse): same look as in the casting photo: SHORT curly brown hair (chin-length ringlets, never long or straight), large tortoiseshell glasses always on, warm smile, olive skin, natural body.\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE & LA LUNE brand, Les Sables-d'Olonne: pastel surreal art photography in the manner of Luigi Ghirri and Wes Anderson, symmetrical planimetric framing, faded Kodachrome pastels (mint, mustard, powder blue, pale pink, cream), deadpan, quiet, one poetic strange detail. Surreal: Annabelle stands still at the waterline facing the camera, holding her cream longboard horizontally in the cream/mint Premier Quartier sling; behind her a full moon in the sky and its perfect reflection in the flat sea form two identical moons, one above the other. Deadpan, centered.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "D-atelier",
+   "group": "Annabelle & la Lune",
+   "label": "atelier",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "personne/visage.jpg",
+    "04_declinaisons/img/D-toile-de-lune.png"
+   ],
+   "prompt": "Reference images, in order:\n1. ANNABELLE: the brand muse, casting reference for the model's look.\n2. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n\nANNABELLE (first reference image, the brand muse): same look as in the casting photo: SHORT curly brown hair (chin-length ringlets, never long or straight), large tortoiseshell glasses always on, warm smile, olive skin, natural body.\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE & LA LUNE brand, Les Sables-d'Olonne: pastel surreal art photography in the manner of Luigi Ghirri and Wes Anderson, symmetrical planimetric framing, faded Kodachrome pastels (mint, mustard, powder blue, pale pink, cream), deadpan, quiet, one poetic strange detail. A small pastel sewing atelier in a beach house: Annabelle, glasses on, sits at a vintage sewing machine stitching a sling in the toile-de-lune print; rolls of mint, mustard and pink canvas on shelves, a finished sling on a longboard leaning on the wall, a window onto the sea with the moon in daylight. Warm, handmade, tender.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "D-plongee",
+   "group": "Annabelle & la Lune",
+   "label": "plongee",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "04_declinaisons/img/D-croissant.png"
+   ],
+   "prompt": "Reference images, in order:\n1. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE & LA LUNE brand, Les Sables-d'Olonne: pastel surreal art photography in the manner of Luigi Ghirri and Wes Anderson, symmetrical planimetric framing, faded Kodachrome pastels (mint, mustard, powder blue, pale pink, cream), deadpan, quiet, one poetic strange detail. Perfectly symmetrical top-down view: a woman in a pale pink swimsuit and white bathing cap lies on a mint towel on the sand, arms at her sides, eyes closed; parallel to her lies her longboard in the pink/blue Croissant sling; a round pale-yellow parasol beside them echoes a full moon. Graphic, still.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "D-escalier",
+   "group": "Annabelle & la Lune",
+   "label": "escalier",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "04_declinaisons/img/D-gibbeuse.png",
+    "poses/carry.jpg"
+   ],
+   "prompt": "Reference images, in order:\n1. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n2. POSE AND REALISM REFERENCE: a real surf photograph; copy only the natural way a real surfer walks and holds a board, true proportions and real light. Do not copy the person or colours.\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE & LA LUNE brand, Les Sables-d'Olonne: pastel surreal art photography in the manner of Luigi Ghirri and Wes Anderson, symmetrical planimetric framing, faded Kodachrome pastels (mint, mustard, powder blue, pale pink, cream), deadpan, quiet, one poetic strange detail. A pastel concrete staircase painted mint and pink descends to the beach, perfectly frontal; halfway down, a small woman in a mustard swimsuit carries her longboard in the mustard/cream Gibbeuse sling; a huge pale moon above the sea at the bottom of the frame. Geometric, quiet.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "D-nuit-cabine",
+   "group": "Annabelle & la Lune",
+   "label": "nuit cabine",
+   "engine": "nano",
+   "ratio": "16:9",
+   "size": "4K",
+   "refs": [
+    "04_declinaisons/img/D-lune-rousse.png"
+   ],
+   "prompt": "Reference images, in order:\n1. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE & LA LUNE brand, Les Sables-d'Olonne: pastel surreal art photography in the manner of Luigi Ghirri and Wes Anderson, symmetrical planimetric framing, faded Kodachrome pastels (mint, mustard, powder blue, pale pink, cream), deadpan, quiet, one poetic strange detail. Night: a single pale cabin glows warm from inside, its door open, on the moonlit sand; a longboard in the terracotta/mint Lune Rousse sling leans against it; a large coppery rising moon (lune rousse) over the calm sea. No people. Long exposure, tender, cinematic.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "D-packshot-lune",
+   "group": "Annabelle & la Lune",
+   "label": "packshot lune",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "4K",
+   "refs": [
+    "04_declinaisons/img/D-premier-quartier.png"
+   ],
+   "prompt": "Reference images, in order:\n1. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE & LA LUNE brand, Les Sables-d'Olonne: pastel surreal art photography in the manner of Luigi Ghirri and Wes Anderson, symmetrical planimetric framing, faded Kodachrome pastels (mint, mustard, powder blue, pale pink, cream), deadpan, quiet, one poetic strange detail. Surreal packshot: a cream longboard wearing the cream/mint Premier Quartier sling floats horizontally in the air above a flat mint sea, casting a soft shadow on the water; a small pale moon exactly above it; powder-blue sky; perfectly centered. Product razor sharp.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  },
+  {
+   "id": "D-annabelle-portrait",
+   "group": "Annabelle & la Lune",
+   "label": "annabelle portrait",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "4K",
+   "refs": [
+    "personne/visage.jpg",
+    "04_declinaisons/img/D-pleine-lune.png"
+   ],
+   "prompt": "Reference images, in order:\n1. ANNABELLE: the brand muse, casting reference for the model's look.\n2. PRODUCT: an exact sling colourway to reproduce (construction, colours, round embroidered patch).\n\nANNABELLE (first reference image, the brand muse): same look as in the casting photo: SHORT curly brown hair (chin-length ringlets, never long or straight), large tortoiseshell glasses always on, warm smile, olive skin, natural body.\n\nHOW THE PRODUCT IS WORN: the longboard passes THROUGH the loop of the sling, the canvas panel wraps the middle of the board (upper part of the panel visible over the board), the two straps rise over the shoulder, the board hangs horizontally at the hip, nose forward. Never carried like a tote bag beside the board.\n\nANNABELLE & LA LUNE brand, Les Sables-d'Olonne: pastel surreal art photography in the manner of Luigi Ghirri and Wes Anderson, symmetrical planimetric framing, faded Kodachrome pastels (mint, mustard, powder blue, pale pink, cream), deadpan, quiet, one poetic strange detail. Portrait: Annabelle framed from the waist up, dead center, in front of a mint cabin wall, glasses on, a gentle smile, the mint/mustard sling strap across her chest and the nose of her longboard visible over her shoulder; a small pale moon in the corner of the sky. Soft flat light, real skin.\n\nRealism: a real photograph, natural skin texture, real fabric creases, correct hands with five fingers, the board at true scale (about 9 feet). Negative: no text, no extra logos, no watermark, no CGI look, no plastic skin, no stock-photo posing."
+  }
+ ]
+}

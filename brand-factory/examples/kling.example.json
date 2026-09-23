@@ -1,0 +1,35 @@
+{
+ "clips": [
+  {
+   "id": "L1",
+   "start": "05_visuels/img/D-annabelle-cabine-lune.png",
+   "end": "05_visuels/img/D-rangee-cabines.png",
+   "duration": "10",
+   "prompt": "Pastel surreal art film in the manner of Luigi Ghirri and Wes Anderson, faded Kodachrome, perfectly symmetrical, locked-off camera. Annabelle stands still in front of the mint beach cabin holding her longboard in the mint sling; the huge moon behind the cabin slowly rises. Then the camera performs a slow, perfectly straight lateral dolly to the right: the single cabin multiplies into a row of six pastel cabins, Annabelle gently fades out of frame like a daydream, and on every cabin door a sling appears hanging on its hook, each in a different pastel colour. Magical but calm transition, no cuts, deadpan, silent sea, soft flat light."
+  },
+  {
+   "id": "L2",
+   "start": "05_visuels/img/D-marche-vers-la-mer.png",
+   "end": "05_visuels/img/D-deux-lunes.png",
+   "duration": "10",
+   "prompt": "Pastel surreal art film, faded Kodachrome, symmetrical. Seen from behind, Annabelle walks slowly into the glass-flat pastel sea at dawn with her longboard in the pink sling, perfect mirror reflections under her. The camera slowly orbits 180 degrees around her in one continuous move, the sky turning from pink to powder blue, until she faces the camera at the waterline holding her board horizontally, and the moon splits into two identical moons, one above the other. Dreamlike, slow, graceful, no cuts."
+  },
+  {
+   "id": "L3",
+   "start": "05_visuels/img/D-nuit-cabine.png",
+   "end": "05_visuels/img/D-packshot-lune.png",
+   "duration": "10",
+   "prompt": "Pastel surreal art film, night into dawn. Static shot: the lit beach cabin glows warm under a coppery full moon, a longboard in its sling leans on the wall. The sling gently lifts off the wall and the longboard floats up into the air in slow motion, turning a half-turn, while the night sky dissolves into a pale powder-blue morning and the sand becomes a flat mint sea; it ends with the board hovering horizontally above the calm mint water under a small pale moon. Poetic, weightless, one continuous magical move, no cuts."
+  }
+ ],
+ "negative": "text, logos, watermark, extra limbs, distorted hands, morphing face, the product used the wrong way, flicker, cartoon, oversaturation, fast shaky camera",
+ "music": {
+  "title": "La lune porte la planche",
+  "style": "inspiring cinematic waltz, felt piano, celesta, music box, glockenspiel, pizzicato strings rising into a warm soaring string orchestra, whimsical French film score, tender, magical, hopeful, 3/4 time, instrumental",
+  "prompt": "Instrumental. Begins delicate with felt piano and celesta like a music box at dawn, pizzicato strings join, then a soaring hopeful string swell, ending on a soft suspended piano chord."
+ },
+ "voiceover": {
+  "voice_id": "<ID de voix ElevenLabs>",
+  "text": "Il y avait une cabine menthe, aux Sables-d'Olonne. … Le matin, Annabelle y rangeait sa planche. … Le soir, c'était la Lune qui venait la chercher. … Annabelle et la Lune. … Le sac qui porte la planche."
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "step": "03_master",
+ "title": "Le master produit",
+ "intro": "Une photo studio de référence par marque. Toutes les déclinaisons partiront d'elle.",
+ "choose": "none",
+ "jobs": [
+  {
+   "id": "B-master",
+   "group": "Master B",
+   "label": "Master produit",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg",
+    "brand_kit/logo_B.png"
+   ],
+   "prompt": "Reference images: the first three show the product construction; the LAST image is the brand logo to embroider on the round patch.\n\nPRODUCT (reproduce exactly the construction of the reference product photos): a surfboard carry sling. A flat rectangular panel of heavy cotton canvas about 60 x 48 cm, fully lined, with a flat patch pocket on the front, and two long flat cotton webbing straps sewn down the panel that meet above it. The panel wraps around the middle of a longboard: the board passes through the loop, the upper part of the panel shows over the board, the straps rise above. Fine topstitching, bar-tacks at the strap joins. A small round embroidered patch sewn on the front pocket reproduces the attached logo artwork in thread.\n\nCOLORWAY: panel in mandarine-orange canvas #F26A2E, straps in pistachio-green webbing #B5D99C, patch on cream with the A-sling logo.\n\nStudio packshot for an e-commerce product page: the sling mounted on a plain white longboard lying horizontally, shot three-quarter from slightly above, soft window light from the left, gentle realistic shadow, seamless background in warm cream #FBF7EF. The canvas weave, the stitching, the embroidery threads and the webbing texture are razor sharp. Real product photography, no CGI look, no text, no extra logos, vertical 4:5."
+  },
+  {
+   "id": "D-master",
+   "group": "Master D",
+   "label": "Master produit",
+   "engine": "nano",
+   "ratio": "4:5",
+   "size": "2K",
+   "refs": [
+    "product/p01.jpg",
+    "product/p02.jpg",
+    "product/p03.jpg",
+    "brand_kit/logo_D.png"
+   ],
+   "prompt": "Reference images: the first three show the product construction; the LAST image is the brand logo to embroider on the round patch.\n\nPRODUCT (reproduce exactly the construction of the reference product photos): a surfboard carry sling. A flat rectangular panel of heavy cotton canvas about 60 x 48 cm, fully lined, with a flat patch pocket on the front, and two long flat cotton webbing straps sewn down the panel that meet above it. The panel wraps around the middle of a longboard: the board passes through the loop, the upper part of the panel shows over the board, the straps rise above. Fine topstitching, bar-tacks at the strap joins. A small round embroidered patch sewn on the front pocket reproduces the attached logo artwork in thread.\n\nCOLORWAY: panel in mint canvas #BFE3D6, straps in mustard webbing #D9A431, patch on cream with the two-cabins logo.\n\nStudio packshot for an e-commerce product page: the sling mounted on a plain white longboard lying horizontally, shot three-quarter from slightly above, soft window light from the left, gentle realistic shadow, seamless background in pale powder blue #BBD7EE. The canvas weave, the stitching, the embroidery threads and the webbing texture are razor sharp. Real product photography, no CGI look, no text, no extra logos, vertical 4:5."
+  }
+ ]
+}
