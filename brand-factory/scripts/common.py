@@ -8,7 +8,7 @@ KIT = Path(__file__).resolve().parent.parent
 
 
 def load_keys():
-    """Clés : variables d'environnement, sinon ./keys.env, sinon ~/.brand_factory/keys.env."""
+    """Clé : variable d'environnement FAL_KEY, sinon ./keys.env, sinon ~/.brand_factory/keys.env."""
     for p in [Path.cwd() / "keys.env", Path.home() / ".brand_factory/keys.env"]:
         if p.exists():
             for line in p.read_text().splitlines():
@@ -37,27 +37,6 @@ def load_brand(root):
 def mime(p):
     s = str(p).lower()
     return "image/png" if s.endswith(".png") else "image/webp" if s.endswith(".webp") else "image/jpeg"
-
-
-# ---------- Images : Nano Banana Pro / Nano Banana 2 (Google) ----------
-def nano_banana(prompt, refs=(), ratio="16:9", size="2K", model="gemini-3-pro-image", tries=3):
-    """Retourne les octets PNG, ou None. refs = chemins d'images (≤ 14)."""
-    k = key("GEMINI_API_KEY")
-    parts = [{"inline_data": {"mime_type": mime(r), "data": base64.b64encode(Path(r).read_bytes()).decode()}} for r in refs]
-    parts.append({"text": prompt})
-    body = {"contents": [{"parts": parts}], "generationConfig": {"responseModalities": ["IMAGE", "TEXT"], "imageConfig": {"aspectRatio": ratio, "imageSize": size}}}
-    for a in range(tries):
-        try:
-            r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={k}", json=body, timeout=300).json()
-            c = (r.get("candidates") or [{}])[0]
-            for p in (c.get("content") or {}).get("parts", []):
-                if "inlineData" in p:
-                    return base64.b64decode(p["inlineData"]["data"])
-            print(f"   ⚠ pas d'image ({c.get('finishReason') or r.get('error', {}).get('message', '?')}), essai {a + 1}")
-        except Exception as e:
-            print(f"   ⚠ {e}")
-        time.sleep(5 * (a + 1))
-    return None
 
 
 # ---------- fal.ai : file d'attente générique ----------
@@ -91,6 +70,25 @@ def fal_run(endpoint, payload, poll=6, max_s=1200):
     raise RuntimeError(f"fal : résultat introuvable ({r.status_code} {r.text[:200]})")
 
 
+def nano_banana(prompt, refs=(), ratio="16:9", size="2K", model="pro", tries=3):
+    """Nano Banana via fal. model = "pro" (Nano Banana Pro, ≈ 0,15 $) ou "flash" (Nano Banana 2, ≈ 0,08 $).
+    refs = chemins d'images locales (≤ 14) : envoyées sur fal puis passées à la version /edit. Retourne les octets de l'image, ou None."""
+    base = "fal-ai/nano-banana-pro" if model == "pro" else "fal-ai/nano-banana-2"
+    for a in range(tries):
+        try:
+            payload = {"prompt": prompt, "aspect_ratio": ratio, "resolution": size, "output_format": "png", "safety_tolerance": "4" if a == 0 else "6"}
+            if refs:
+                payload["image_urls"] = [fal_upload(r) for r in refs]
+            res = fal_run(base + ("/edit" if refs else ""), payload, poll=4)
+            if res.get("images"):
+                return requests.get(res["images"][0]["url"], timeout=180).content
+            print(f"   ⚠ pas d'image ({str(res)[:160]}), essai {a + 1}")
+        except Exception as e:
+            print(f"   ⚠ {str(e)[:200]}, essai {a + 1}")
+        time.sleep(5 * (a + 1))
+    return None
+
+
 def gpt_image(prompt, w=1536, h=1536):
     """GPT Image 2.5 Sunburst via fal (texte lisible : logos, étiquettes)."""
     res = fal_run("openai/gpt-image-2.5/sunburst/text-to-image", {"prompt": prompt, "image_size": {"width": w, "height": h}, "quality": "high", "output_format": "png"}, poll=5)
@@ -105,30 +103,14 @@ def kling(prompt, start, end=None, duration="10", negative=""):
     return requests.get(res["video"]["url"], timeout=300).content
 
 
-# ---------- Son ----------
-def suno(style, prompt, title, out_dir, max_s=600):
-    """Musique instrumentale Suno V5. ⚠ aucun nom d'artiste dans style (refus SENSITIVE_WORD_ERROR)."""
-    k = key("SUNO_API_KEY"); B = "https://api.sunoapi.org"
-    H = {"Authorization": f"Bearer {k}", "Content-Type": "application/json", "User-Agent": "curl/8.7.1"}
-    t = requests.post(f"{B}/api/v1/generate", headers=H, json={"customMode": True, "instrumental": True, "model": "V5", "callBackUrl": "https://example.com/cb", "title": title, "style": style, "prompt": prompt}, timeout=60).json()["data"]["taskId"]
-    t0 = time.time()
-    while time.time() - t0 < max_s:
-        time.sleep(15)
-        d = requests.get(f"{B}/api/v1/generate/record-info?taskId={t}", headers=H, timeout=60).json().get("data", {})
-        st = d.get("status") or ""
-        if "ERROR" in st or "FAIL" in st:
-            raise RuntimeError(f"Suno : {st} {d.get('errorMessage')}")
-        songs = [s for s in ((d.get("response") or {}).get("sunoData") or []) if s.get("audioUrl")]
-        if st == "SUCCESS" and songs:
-            out = []
-            for i, s in enumerate(songs, 1):
-                p = Path(out_dir) / f"music_{i}.mp3"; p.write_bytes(requests.get(s["audioUrl"], headers={"User-Agent": "curl/8.7.1"}, timeout=300).content); out.append(p)
-            return out
-    raise RuntimeError("Suno : délai dépassé")
+# ---------- Son (via fal) ----------
+def music(prompt, out, seconds=40):
+    """Musique instrumentale ElevenLabs Music via fal. Décrire l'ambiance, les instruments, le tempo (pas de nom d'artiste)."""
+    res = fal_run("elevenlabs/music/v2.5", {"prompt": prompt, "force_instrumental": True, "music_length_ms": int(seconds * 1000), "output_format": "mp3_44100_128"}, poll=5)
+    Path(out).write_bytes(requests.get(res["audio"]["url"], timeout=300).content); return out
 
 
-def elevenlabs(text, out, voice_id):
-    r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}?output_format=mp3_44100_128",
-                      headers={"xi-api-key": key("ELEVENLABS_API_KEY"), "Content-Type": "application/json"},
-                      json={"text": text, "model_id": "eleven_multilingual_v2", "voice_settings": {"stability": 0.6, "similarity_boost": 0.8, "style": 0.2, "use_speaker_boost": True}}, timeout=120)
-    r.raise_for_status(); Path(out).write_bytes(r.content); return out
+def voice(text, out, voice_name="Charlotte", lang="fr"):
+    """Voix off ElevenLabs via fal. Voix possibles : Charlotte, Alice, Matilda, Lily, George, Daniel, Brian…"""
+    res = fal_run("fal-ai/elevenlabs/tts/turbo-v2.5", {"text": text, "voice": voice_name, "language_code": lang, "stability": 0.6, "similarity_boost": 0.8}, poll=2)
+    Path(out).write_bytes(requests.get(res["audio"]["url"], timeout=120).content); return out

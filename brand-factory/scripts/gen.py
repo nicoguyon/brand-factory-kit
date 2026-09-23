@@ -36,8 +36,7 @@ def run(j):
     if eng == "gpt":
         data = gpt_image(j["prompt"])
     else:
-        data = nano_banana(j["prompt"], refs, j.get("ratio", "16:9"), j.get("size", "2K"),
-                           "gemini-3.1-flash-image" if eng == "nano-flash" else "gemini-3-pro-image")
+        data = nano_banana(j["prompt"], refs, j.get("ratio", "16:9"), j.get("size", "2K"), "flash" if eng == "nano-flash" else "pro")
     if not data:
         print(f"❌ {j['id']} aucune image (filtre ou erreur). Astuce visages : « the brand muse, casting reference », jamais « the real person »."); return j["id"], False
     out.write_bytes(data); print(f"✅ {j['id']} {time.time() - t0:.0f}s")

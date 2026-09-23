@@ -4,7 +4,7 @@ Usage : python3 film_kling.py <dossier_marque>      (lit <dossier>/film/kling.js
 import json, sys
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-from common import kling, suno, elevenlabs
+from common import kling, music as make_music, voice as make_voice
 root = Path(sys.argv[1]).expanduser().resolve(); F = root / "film"; (F / "clips").mkdir(parents=True, exist_ok=True)
 cfg = json.loads((F / "kling.json").read_text())
 def clip(c):
@@ -14,10 +14,10 @@ def clip(c):
     out.write_bytes(kling(c["prompt"], root / c["start"], root / c["end"] if c.get("end") else None, c.get("duration", "10"), cfg.get("negative", ""))); print("✅", c["id"])
 def music():
     if list(F.glob("music_*.mp3")): return
-    suno(cfg["music"]["style"], cfg["music"]["prompt"], cfg["music"]["title"], F); print("🎵 musique ok")
+    make_music(cfg["music"]["prompt"], F / "music_1.mp3", cfg["music"].get("seconds", 40)); print("🎵 musique ok")
 def voice():
     if (F / "vo.mp3").exists() or not cfg.get("voiceover"): return
-    elevenlabs(cfg["voiceover"]["text"], F / "vo.mp3", cfg["voiceover"]["voice_id"]); print("🎙 voix off ok")
+    make_voice(cfg["voiceover"]["text"], F / "vo.mp3", cfg["voiceover"].get("voice", "Charlotte"), cfg["voiceover"].get("lang", "fr")); print("🎙 voix off ok")
 with ThreadPoolExecutor(6) as ex:
     fs = [ex.submit(clip, c) for c in cfg["clips"]] + [ex.submit(music), ex.submit(voice)]
     for f in fs: f.result()

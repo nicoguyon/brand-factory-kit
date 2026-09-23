@@ -1,6 +1,6 @@
 ---
 name: brand-factory
-description: Crée une marque complète à partir d'un vrai produit (lien ou photos), comme on l'a fait pour Annabelle — analyse du produit, 4 directions artistiques, logos, master produit et déclinaisons, série de visuels (avec une vraie personne si on a sa photo), boutique en ligne avec cabine d'essayage live (styliste Jev + Nano Banana), film de 30 s, et une page making-of avec tous les prompts. Chaque étape se choisit sur une page web avant de lancer la suivante. Déclencheurs — « crée une marque pour … », « brand factory », « fais une marque à partir de ce produit », « /brand-factory ».
+description: Crée une marque complète à partir d'un vrai produit (lien ou photos), comme on l'a fait pour Annabelle — analyse du produit, 4 directions artistiques, logos, master produit et déclinaisons, série de visuels (avec une vraie personne si on a sa photo), boutique en ligne avec cabine d'essayage live (styliste IA + Nano Banana), film de 30 s, et une page making-of avec tous les prompts. Chaque étape se choisit sur une page web avant de lancer la suivante. Déclencheurs — « crée une marque pour … », « brand factory », « fais une marque à partir de ce produit », « /brand-factory ».
 ---
 
 # Brand Factory — refaire « Annabelle » pour n'importe quel produit
@@ -27,10 +27,10 @@ Les scripts sont dans le dossier de cette skill : `SKILL_DIR/scripts/` (remplace
 python3 SKILL_DIR/scripts/preflight.py
 ```
 
-Le script teste chaque clé et chaque outil, puis affiche les étapes possibles. Si une clé manque :
-- lire à l'utilisateur la ligne « il manque : … » et l'aider à créer la clé (liens dans `keys.env.example`) ;
-- les clés vont dans `~/.brand_factory/keys.env` (copier `SKILL_DIR/keys.env.example`) ;
-- **seule `GEMINI_API_KEY` est indispensable**. Sans les autres, on saute les étapes concernées et on le dit.
+Le script teste la clé et les outils, puis affiche les étapes possibles.
+- **Une seule clé : `FAL_KEY`** (fal.ai › Dashboard › API Keys, avec un peu de crédit). Elle sert à TOUT : images (Nano Banana Pro et Nano Banana 2), logos (GPT Image 2.5), essayage, styliste IA (modèle de langage via fal), film (Kling 3.0), musique (ElevenLabs Music) et voix off (ElevenLabs).
+- Elle va dans `~/.brand_factory/keys.env` (copier `SKILL_DIR/keys.env.example`).
+- Si le script dit « clé valide mais appel refusé », le crédit fal est épuisé : le dire à l'utilisateur.
 
 Outils : `python3` avec `requests` et `pillow` (le script donne la commande d'installation), `node`, `ffmpeg`, `vercel` (`npm i -g vercel` puis `vercel login`). Pour Etsy et Dreamina : l'extension Claude in Chrome.
 
@@ -66,7 +66,7 @@ Outils : `python3` avec `requests` et `pillow` (le script donne la commande d'in
 
 ## Étape 3 — Logos → page de choix (≈ 5 min, ≈ 2 $)
 
-- Modèle : `examples/02_logos.json`. Moteur `gpt` (GPT Image 2.5, texte lisible, clé `FAL_KEY`).
+- Modèle : `examples/02_logos.json`. Moteur `gpt` (GPT Image 2.5 via fal, texte lisible).
 - Ce qui marche : des logos **qui frappent, construits sur l'initiale du nom** (Annabelle : le A qui EST le produit, la trace de bronzage en forme de A, la lune prise dans le A, deux cabines qui forment le A). Deux essais par idée.
 - Critique obligatoire : signaler ce qui peut choquer dans le mauvais sens, ou se lire de travers.
 - Copier le logo choisi dans `brand_kit/`.
@@ -81,7 +81,7 @@ Outils : `python3` avec `requests` et `pillow` (le script donne la commande d'in
 
 - Modèle : `examples/05_visuels.json`. Références dans l'ordre : visage (`personne/visage.jpg`), déclinaison produit, pose réelle.
 - **Commencer par 4 tests**, les montrer, puis lancer la série.
-- ⚠ Si une image avec la personne sort vide : Google bloque les formulations du type « the real woman ». Écrire « the brand muse, casting reference for the model's look ».
+- ⚠ Si une image avec la personne sort vide : le filtre de contenu bloque les formulations du type « the real woman ». Écrire « the brand muse, casting reference for the model's look ». Le script relance automatiquement avec une tolérance plus souple.
 - Si le visage n'est pas reconnaissable : mettre 3 références de visage (la photo + 2 visuels réussis) et relancer avec `--redo <id>`.
 
 ## Étape 6 — La boutique (≈ 15 min)
@@ -93,8 +93,8 @@ Outils : `python3` avec `requests` et `pillow` (le script donne la commande d'in
    python3 SKILL_DIR/scripts/build_site.py ~/<slug>
    bash SKILL_DIR/scripts/deploy.sh ~/<slug>/site/<slug> <slug> avec-cles
    ```
-   `avec-cles` envoie `GEMINI_API_KEY` et `TYPESAFE_API_KEY` au serveur (jamais dans la page). Le script vérifie le JavaScript avant de livrer.
-4. **Tester sur le site** : cliquer un mannequin → Jev choisit → le rendu s'affiche en 10 à 20 s.
+   `avec-cles` envoie `FAL_KEY` au serveur (jamais dans la page). Le script vérifie le JavaScript avant de livrer.
+4. **Tester sur le site** : cliquer un mannequin → le styliste IA choisit la variante et la taille, avec une phrase d'explication (≈ 1,5 s) → le rendu s'affiche en 10 à 25 s. Le filtre de contenu de fal refuse parfois au hasard : la fonction alterne toute seule deux formulations puis passe sur Nano Banana Pro. Défaut à surveiller : le produit parfois mal porté (le « cabas » d'Annabelle) ; renforcer `usage` dans brand.json.
 5. Fonction signature (optionnelle, `feature_html` + `feature_js` dans brand.json) : une idée propre à l'univers, qui marche dans le navigateur (Annabelle : carte de membre à ton nom ; phase de la lune en direct).
 
 ## Étape 7 — Le film → page plan, puis page de validation des images (payant)
@@ -105,7 +105,7 @@ Outils : `python3` avec `requests` et `pillow` (le script donne la commande d'in
   python3 SKILL_DIR/scripts/film_kling.py ~/<slug>
   bash SKILL_DIR/scripts/montage.sh ~/<slug> ~/<slug>/film/endcard.png
   ```
-  ≈ 1,12 $ par plan de 10 s. ⚠ Suno refuse les noms d'artistes dans le style : décrire l'ambiance.
+  ≈ 1,40 $ par plan de 10 s. Musique ElevenLabs Music et voix off ElevenLabs via fal (voix : Charlotte, Alice, Matilda, George, Daniel…). Décrire l'ambiance de la musique sans nom d'artiste.
 - **Film plan-séquence (Seedance 2.5 sur Dreamina)**, si l'utilisateur a un compte Dreamina : modèle de prompt `examples/seedance.example.txt` (verrous d'identité @Image, storyboard horodaté, un effet signature, un gag). Avec Claude in Chrome : AI Video › Seedance 2.5 › Omni reference › 16:9 › 30 s ; vérifier les crédits AVANT ; ajouter les références dans l'ordre des @Image ; coller le prompt ; envoyer ; télécharger (le fichier arrive sur le Bureau). **Ne jamais cliquer dans un écran de paiement.**
 - Mettre la vidéo en ligne (ou dans le dossier du site), renseigner `film.url` dans brand.json, relancer `build_site.py` et `deploy.sh`.
 
@@ -129,19 +129,21 @@ Donner à l'utilisateur les liens : pages de choix, making-of, boutique.
 
 | Poste | Coût |
 |---|---|
-| Directions (12 images) | ≈ 3 $ |
-| Logos (16 images) | ≈ 2 $ |
+| Directions (12 images Nano Banana Pro) | ≈ 2 $ |
+| Logos (16 images GPT Image 2.5) | ≈ 3 $ |
 | Master + 6 déclinaisons | ≈ 1 $ |
-| 10 à 14 visuels 4K | ≈ 3 $ |
-| Film Kling (3 × 10 s) | ≈ 3,40 $ |
-| Essayage en ligne | ≈ 0,04 $ par rendu |
+| 10 à 14 visuels | ≈ 2 $ |
+| Film Kling (3 × 10 s) + musique + voix | ≈ 5 $ |
+| Essayage en ligne | ≈ 0,08 $ par rendu |
+
+Tout est facturé sur le compte fal : prévoir une vingtaine de dollars de crédit pour une marque complète.
 
 ## Pannes connues
 
 | Symptôme | Cause | Solution |
 |---|---|---|
-| Image vide, « IMAGE_OTHER » | filtre visages réels | « brand muse, casting reference » |
-| Suno « SENSITIVE_WORD_ERROR » | nom d'artiste dans le style | décrire l'ambiance |
+| Image vide, « content_policy_violation » | filtre de contenu de fal | « brand muse, casting reference » ; relance automatique en tolérance souple |
+| « clé valide mais appel refusé » | crédit fal épuisé | recharger le compte fal |
 | Page du site blanche ou boutons morts | erreur JavaScript | `build_site.py` le détecte ; lire le message |
 | Site qui demande une connexion Vercel | protection activée par défaut | Settings › Deployment Protection › désactiver |
 | Etsy / Amazon 403 | anti-robot | Claude in Chrome ou photos enregistrées à la main |

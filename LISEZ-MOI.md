@@ -13,7 +13,7 @@ Créer une marque complète à partir d'un vrai produit, avec Claude Code, en su
    mkdir -p ~/.brand_factory && cp brand-factory/keys.env.example ~/.brand_factory/keys.env
    open -e ~/.brand_factory/keys.env
    ```
-   Remplis au moins `GEMINI_API_KEY` (gratuite à créer sur aistudio.google.com). Les autres débloquent les logos, l'essayage, le film.
+   Remplis `FAL_KEY` (fal.ai › Dashboard › API Keys). C'est la seule clé : elle sert aux images, aux logos, à l'essayage, au styliste, au film, à la musique et à la voix off. Prévois une vingtaine de dollars de crédit fal pour une marque complète.
 3. **Les outils** (Mac) :
    ```bash
    brew install ffmpeg node && npm i -g vercel && vercel login
@@ -23,7 +23,7 @@ Créer une marque complète à partir d'un vrai produit, avec Claude Code, en su
    ```bash
    python3 ~/.claude/skills/brand-factory/scripts/preflight.py
    ```
-   Le script dit quelles clés marchent et quelles étapes sont possibles.
+   Le script dit si la clé marche et quelles étapes sont possibles.
 
 ## Utilisation
 

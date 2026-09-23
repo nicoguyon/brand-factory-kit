@@ -129,7 +129,6 @@
  "tryon": {
   "mode": "wear",
   "scene": "walking on a crowded, colourful 1970s-style summer beach, hard sunlight, saturated pop colours, carrying a pale longboard",
-  "trait_question": "Le client débute-t-il ?",
   "title": "Essaie-le sur toi.",
   "models": [
    {
@@ -142,7 +141,8 @@
   "chips": [
    "Je débute, je surfe l'été au milieu de la foule, j'adore les couleurs qui pètent",
    "Je suis nostalgique des années 70, j'adore les rayures"
-  ]
+  ],
+  "stylist_model": "google/gemini-2.5-flash"
  },
  "film": {
   "url": "",

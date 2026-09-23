@@ -24,12 +24,12 @@
  ],
  "negative": "text, logos, watermark, extra limbs, distorted hands, morphing face, the product used the wrong way, flicker, cartoon, oversaturation, fast shaky camera",
  "music": {
-  "title": "La lune porte la planche",
-  "style": "inspiring cinematic waltz, felt piano, celesta, music box, glockenspiel, pizzicato strings rising into a warm soaring string orchestra, whimsical French film score, tender, magical, hopeful, 3/4 time, instrumental",
-  "prompt": "Instrumental. Begins delicate with felt piano and celesta like a music box at dawn, pizzicato strings join, then a soaring hopeful string swell, ending on a soft suspended piano chord."
+  "seconds": 40,
+  "prompt": "Inspiring cinematic waltz in 3/4 time: felt piano and celesta like a music box at dawn, glockenspiel, pizzicato strings rising into a warm soaring string orchestra, whimsical French film score, tender, magical, hopeful, ending on a soft suspended piano chord. Instrumental."
  },
  "voiceover": {
-  "voice_id": "<ID de voix ElevenLabs>",
+  "voice": "Charlotte",
+  "lang": "fr",
   "text": "Il y avait une cabine menthe, aux Sables-d'Olonne. … Le matin, Annabelle y rangeait sa planche. … Le soir, c'était la Lune qui venait la chercher. … Annabelle et la Lune. … Le sac qui porte la planche."
  }
 }

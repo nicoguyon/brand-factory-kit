@@ -1,6 +1,6 @@
 #!/bin/bash
 # Publie un dossier sur Vercel (production). Usage : deploy.sh <dossier> <nom-du-projet> [avec-cles]
-# « avec-cles » : ajoute GEMINI_API_KEY et TYPESAFE_API_KEY côté serveur (nécessaire pour l'essayage live).
+# « avec-cles » : ajoute FAL_KEY côté serveur (nécessaire pour l'essayage live et le styliste).
 # Plusieurs équipes Vercel ? Mets VERCEL_SCOPE=<nom-équipe>, sinon la première équipe proposée est prise.
 set -uo pipefail
 cd "$1"; NAME="$2"; SC=()
@@ -13,7 +13,7 @@ if echo "$OUT" | grep -q "missing_scope"; then
 elif [ ! -f .vercel/project.json ]; then echo "$OUT" | tail -5; echo "❌ vercel link a échoué (as-tu fait « vercel login » ?)"; exit 1; fi
 if [ "${3:-}" = "avec-cles" ]; then
   KF="${KEYS:-}"; [ -z "$KF" ] && for f in ./keys.env ../../keys.env "$HOME/.brand_factory/keys.env"; do [ -f "$f" ] && { KF="$f"; break; }; done
-  for k in GEMINI_API_KEY TYPESAFE_API_KEY; do v=$(grep "^$k=" "$KF" 2>/dev/null | cut -d= -f2-); if [ -n "$v" ]; then vercel env rm $k production --yes >/dev/null 2>&1; printf "%s" "$v" | vercel env add $k production >/dev/null 2>&1 && echo "🔑 $k ajoutée au serveur"; else echo "⚠️  $k absente de $KF : l'essayage ne marchera pas"; fi; done
+  for k in FAL_KEY; do v=$(grep "^$k=" "$KF" 2>/dev/null | cut -d= -f2-); if [ -n "$v" ]; then vercel env rm $k production --yes >/dev/null 2>&1; printf "%s" "$v" | vercel env add $k production >/dev/null 2>&1 && echo "🔑 $k ajoutée au serveur"; else echo "⚠️  $k absente de $KF : l'essayage ne marchera pas"; fi; done
 fi
 URL=$(vercel --prod --yes 2>&1 | grep -oE "https://[a-zA-Z0-9.-]+\.vercel\.app" | tail -1)
 echo "✅ Déployé : https://$NAME.vercel.app  (déploiement : $URL)"
